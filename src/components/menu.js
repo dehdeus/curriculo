@@ -1,13 +1,14 @@
 import React from 'react';
 import Imagem from '../assets/fotonoite.png';
+import './menu.css'
 
 function Menu () {
     return (
-    <section>
+    <section id="menu-lateral">
       <div>
         <img src={Imagem} className="foto-perfil" alt="foto-perfil"/>
       </div>
-      <div>
+      <div id="contato">
         <p>
           Déborah Louise de Deus Tuba
         </p>
@@ -24,6 +25,11 @@ function Menu () {
           Github
         </p>
       </div>
+      <footer id="footer">
+        <p>
+          &copy; Dehdeus
+        </p>
+      </footer>
     </section>
     )
 }

@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Menu from './components/menu.js';
+import Sobre from './components/sobre.js';
+import Skills from './components/skills.js'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Menu />
     <App />
+    <Sobre />
+    <Skills />
   </React.StrictMode>,
   document.getElementById('root')
 );
