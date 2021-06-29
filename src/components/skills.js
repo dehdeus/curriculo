@@ -1,21 +1,36 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup';
+import './skills.css'
 
 function Skills() {
     return (
-        <Container>
-        <Row>
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
-        </Row>
-        <Row>
-          <Col>1 of 3</Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
-        </Row>
-      </Container>
+        <section id="skills-texto">
+          <h2>SKILLS</h2>
+          <div>
+            <h3>Soft Skills</h3>
+              <ListGroup variant="flush">
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+              </ListGroup>
+          </div>
+          <div>
+            <h3>Hard Skills</h3>
+              <ListGroup variant="flush">
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+              </ListGroup>
+          </div>
+          <div>
+            <h3>Idioma</h3>
+              <ListGroup variant="flush">
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
+              </ListGroup>
+          </div>
+        </section>
     )
 }
 
