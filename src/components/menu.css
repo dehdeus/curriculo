@@ -1,6 +1,6 @@
 #menu-lateral {
     text-align: center;
-    flex: 1;
+    flex-direction: row;
     background-color: rgb(211, 145, 255);
     padding: 20px;
     box-shadow: 20 0 100 3px #000000;
