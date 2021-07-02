@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import Menu from './components/menu.js';
 import Sobre from './components/sobre.js';
-import Skills from './components/skills.js'
+import Skills from './components/skills.js';
+import Experiencia from './components/experiencia.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Sobre />
     <App />
     <Skills />
+    <Experiencia />
   </React.StrictMode>,
   document.getElementById('root')
 );
