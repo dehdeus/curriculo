@@ -6,6 +6,7 @@ import Menu from './components/menu.js';
 import Sobre from './components/sobre.js';
 import Skills from './components/skills.js';
 import Experiencia from './components/experiencia.js';
+import Formacao from './components/formacao.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <App />
     <Skills />
     <Experiencia />
+    <Formacao />
   </React.StrictMode>,
   document.getElementById('root')
 );
