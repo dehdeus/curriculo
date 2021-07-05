@@ -1,12 +1,7 @@
-container {
-    display: flex;
-    flex-direction: row; 
-}
-
 #fortxt {
     margin: 40px;
 }
 
-li {
+.forbullets {
     padding-left: 20px;
 }

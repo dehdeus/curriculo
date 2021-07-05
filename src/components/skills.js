@@ -1,36 +1,38 @@
 import React from 'react';
-import ListGroup from 'react-bootstrap/ListGroup';
 import './skills.css'
 
 function Skills() {
     return (
-        <section id="skills-texto">
-          <h2>SKILLS</h2>
-          <div>
-            <h3>Soft Skills</h3>
-              <ListGroup variant="flush">
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-              </ListGroup>
-          </div>
-          <div>
-            <h3>Hard Skills</h3>
-              <ListGroup variant="flush">
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-              </ListGroup>
-          </div>
-          <div>
-            <h3>Idioma</h3>
-              <ListGroup variant="flush">
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-                <ListGroup.Item>XXXXXXXXXXX</ListGroup.Item>
-              </ListGroup>
-          </div>
-        </section>
+        <container>
+          <h2 id="skillstitulo">SKILLS</h2>
+          <section id="skills-texto">
+              <div>
+                <h4>Soft Skills</h4>
+                  <li>Comunicativa</li>
+                  <li>Trabalho em equipe</li>
+                  <li>Aprendizado rápido</li>
+                  <li>Liderança</li>
+                  <li>Flexibilidade</li>
+              </div>
+              <div>
+                <h4>Hard Skills</h4>
+                  <li>Photoshop</li>
+                  <li>InDesign</li>
+                  <li>Final Cut</li>
+                  <li>Pacote Office</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+              </div>
+              <div>
+                <h4>Idioma</h4>
+                  <li>Inglês / Avançado</li>
+                  <li>Espanhol / Avançado</li>
+                  <li>Português / Fluente</li>
+              </div>
+          </section>
+        </container>
     )
 }
 

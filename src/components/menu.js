@@ -4,33 +4,27 @@ import './menu.css'
 
 function Menu () {
     return (
-    <section id="menu-lateral">
-      <div>
-        <img src={Imagem} className="foto-perfil" alt="foto-perfil"/>
-      </div>
-      <div id="contato">
-        <p>
-          Déborah Louise de Deus Tuba
-        </p>
-        <p>
-          Telefone: (xx) xxxxx-xxxx
-        </p>
-        <p>
-          Email: xxxxxxx@gmail.com
-        </p>
-        <p>
-          Linkedin
-        </p>
-        <p>
-          Github
-        </p>
-      </div>
-      <footer id="footer">
-        <p>
-          &copy; Dehdeus
-        </p>
-      </footer>
+    <container id="menu">
+      <section id="menu-lateral">
+        <div>
+          <img src={Imagem} className="foto-perfil" alt="foto-perfil"/>
+        </div>
+        <div id="contato">
+          <p>
+            Déborah Louise de Deus Tuba
+          </p>
+          <p>
+            <a href="mailto:deborahtuba@gmail.com">Email</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/deborahdeustuba/">Linkedin</a>
+          </p>
+          <p>
+            <a href="https://github.com/dehdeus">GitHub</a>
+          </p>
+        </div>
     </section>
+    </container>
     )
 }
 

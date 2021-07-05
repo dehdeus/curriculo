@@ -1,22 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import Menu from './components/menu.js';
 import Sobre from './components/sobre.js';
 import Skills from './components/skills.js';
 import Experiencia from './components/experiencia.js';
 import Formacao from './components/formacao.js';
+import Footer from './components/footer.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Menu />
     <Sobre />
-    <App />
     <Skills />
     <Experiencia />
     <Formacao />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,4 +1,17 @@
+#expcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
 #exp {
     margin: 40px;
-    background-color: rgb(162, 218, 255);
+}
+
+.expbullets {
+    padding-left: 20px;
+}
+
+button {
+    margin: 30px 0px 0px 20px;
 }
