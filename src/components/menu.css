@@ -1,15 +1,16 @@
 #menu-lateral {
     display: flex;
     flex-direction: row;
-    background-color: rgb(211, 145, 255);
+    background-color: rgb(230, 243, 252);
     padding: 20px;
-    box-shadow: 20 0 100 3px #000000;
 }
 
 #contato {
-    margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .foto-perfil {
     height: 150px;
+    margin-left: 20px;
+    box-shadow: 20 0 100 3px #000000;
 }
